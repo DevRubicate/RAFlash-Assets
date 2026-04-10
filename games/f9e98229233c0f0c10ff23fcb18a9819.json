@@ -1,0 +1,1954 @@
+{
+  "assets": [
+    {
+      "id": -101,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 1 (Easy)",
+      "description": "Clear song 1 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -10001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song1d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -102,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 1 (Normal)",
+      "description": "Clear song 1 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -10002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song1d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -103,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 1 (Hard)",
+      "description": "Clear song 1 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -10003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song1d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -201,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 2 (Easy)",
+      "description": "Clear song 2 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -20001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song2d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -202,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 2 (Normal)",
+      "description": "Clear song 2 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -20002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song2d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -203,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 2 (Hard)",
+      "description": "Clear song 2 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -20003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song2d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -301,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 3 (Easy)",
+      "description": "Clear song 3 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -30001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song3d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -302,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 3 (Normal)",
+      "description": "Clear song 3 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -30002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song3d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -303,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 3 (Hard)",
+      "description": "Clear song 3 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -30003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song3d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -401,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 4 (Easy)",
+      "description": "Clear song 4 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -4001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -40001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song4d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -402,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 4 (Normal)",
+      "description": "Clear song 4 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -4002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -40002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song4d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -403,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 4 (Hard)",
+      "description": "Clear song 4 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -4003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -40003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song4d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -501,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 5 (Easy)",
+      "description": "Clear song 5 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -50001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song5d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -502,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 5 (Normal)",
+      "description": "Clear song 5 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -50002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song5d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -503,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 5 (Hard)",
+      "description": "Clear song 5 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -50003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song5d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -601,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 6 (Easy)",
+      "description": "Clear song 6 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -60001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song6d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -602,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 6 (Normal)",
+      "description": "Clear song 6 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -60002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song6d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -603,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 6 (Hard)",
+      "description": "Clear song 6 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -60003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song6d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -701,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 7 (Easy)",
+      "description": "Clear song 7 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -7001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -70001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song7d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -702,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 7 (Normal)",
+      "description": "Clear song 7 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -7002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -70002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song7d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -703,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 7 (Hard)",
+      "description": "Clear song 7 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -7003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -70003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song7d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -801,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 8 (Easy)",
+      "description": "Clear song 8 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -80001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song8d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -802,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 8 (Normal)",
+      "description": "Clear song 8 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -80002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song8d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -803,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 8 (Hard)",
+      "description": "Clear song 8 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -80003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song8d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -901,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 9 (Easy)",
+      "description": "Clear song 9 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -90001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song9d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -902,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 9 (Normal)",
+      "description": "Clear song 9 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -90002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song9d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -903,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 9 (Hard)",
+      "description": "Clear song 9 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -90003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song9d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1001,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 10 (Easy)",
+      "description": "Clear song 10 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -10001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -100001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song10d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1002,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 10 (Normal)",
+      "description": "Clear song 10 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -10002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -100002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song10d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1003,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 10 (Hard)",
+      "description": "Clear song 10 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -10003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -100003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song10d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1101,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 11 (Easy)",
+      "description": "Clear song 11 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -110001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song11d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1102,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 11 (Normal)",
+      "description": "Clear song 11 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -110002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song11d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1103,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 11 (Hard)",
+      "description": "Clear song 11 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -110003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song11d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1201,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 12 (Easy)",
+      "description": "Clear song 12 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -12001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -120001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song12d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1202,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 12 (Normal)",
+      "description": "Clear song 12 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -12002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -120002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song12d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1203,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 12 (Hard)",
+      "description": "Clear song 12 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -12003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -120003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song12d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1301,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 13 (Easy)",
+      "description": "Clear song 13 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -130001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song13d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1302,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 13 (Normal)",
+      "description": "Clear song 13 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -130002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song13d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1303,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 13 (Hard)",
+      "description": "Clear song 13 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -130003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song13d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1401,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 14 (Easy)",
+      "description": "Clear song 14 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -140001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song14d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1402,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 14 (Normal)",
+      "description": "Clear song 14 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -140002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song14d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1403,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 14 (Hard)",
+      "description": "Clear song 14 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -140003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song14d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1501,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 15 (Easy)",
+      "description": "Clear song 15 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -150001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song15d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1502,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 15 (Normal)",
+      "description": "Clear song 15 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -150002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song15d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1503,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 15 (Hard)",
+      "description": "Clear song 15 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -150003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song15d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1601,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 16 (Easy)",
+      "description": "Clear song 16 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -16001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -160001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song16d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1602,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 16 (Normal)",
+      "description": "Clear song 16 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -16002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -160002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song16d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1603,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 16 (Hard)",
+      "description": "Clear song 16 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -16003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -160003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song16d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1701,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 17 (Easy)",
+      "description": "Clear song 17 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -17001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -170001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song17d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1702,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 17 (Normal)",
+      "description": "Clear song 17 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -17002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -170002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song17d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1703,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 17 (Hard)",
+      "description": "Clear song 17 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -17003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -170003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song17d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1801,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 18 (Easy)",
+      "description": "Clear song 18 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -18001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -180001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song18d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1802,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 18 (Normal)",
+      "description": "Clear song 18 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -18002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -180002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song18d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1803,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 18 (Hard)",
+      "description": "Clear song 18 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -18003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -180003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song18d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1901,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 19 (Easy)",
+      "description": "Clear song 19 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -19001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -190001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song19d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1902,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 19 (Normal)",
+      "description": "Clear song 19 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -19002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -190002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song19d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1903,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 19 (Hard)",
+      "description": "Clear song 19 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -19003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -190003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song19d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2001,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 20 (Easy)",
+      "description": "Clear song 20 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -20001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -200001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song20d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2002,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 20 (Normal)",
+      "description": "Clear song 20 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -20002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -200002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song20d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2003,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 20 (Hard)",
+      "description": "Clear song 20 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -20003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -200003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song20d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2101,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 21 (Easy)",
+      "description": "Clear song 21 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -21001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -210001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song21d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2102,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 21 (Normal)",
+      "description": "Clear song 21 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -21002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -210002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song21d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2103,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 21 (Hard)",
+      "description": "Clear song 21 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -21003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -210003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song21d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2201,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 22 (Easy)",
+      "description": "Clear song 22 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -22001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -220001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song22d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2202,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 22 (Normal)",
+      "description": "Clear song 22 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -22002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -220002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song22d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2203,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 22 (Hard)",
+      "description": "Clear song 22 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -22003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -220003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song22d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2301,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 23 (Easy)",
+      "description": "Clear song 23 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -23001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -230001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song23d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2302,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 23 (Normal)",
+      "description": "Clear song 23 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -23002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -230002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song23d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2303,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 23 (Hard)",
+      "description": "Clear song 23 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -23003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -230003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song23d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2401,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 24 (Easy)",
+      "description": "Clear song 24 on Easy difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -24001,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -240001,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song24d1clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2402,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 24 (Normal)",
+      "description": "Clear song 24 on Normal difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -24002,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -240002,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song24d2clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2403,
+      "type": "ACHIEVEMENT",
+      "points": 0,
+      "name": "Clear Song 24 (Hard)",
+      "description": "Clear song 24 on Hard difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -24003,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -240003,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".song24d3clear",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeNotes": [],
+  "gameConfig": {
+    "title": "DJ Maniax",
+    "originUrl": "http://newgrounds.com",
+    "badgeImage": ""
+  }
+}

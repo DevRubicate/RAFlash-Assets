@@ -1,0 +1,1577 @@
+{
+  "assets": [
+    {
+      "id": -6617873,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: White Mage",
+      "description": "Get the White Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8340251,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -3063149,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -5512925,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"White Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -9417406,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"White Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -15161949,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Talented Mage",
+      "description": "Get the Talented Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8785343,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -14040758,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -9810686,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Talented Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -11593664,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Talented Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -6206410,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Rising Star",
+      "description": "Get the Rising Star title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15935477,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -392874,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8739930,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Rising Star\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -1573633,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Rising Star\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -13884762,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Black Mage",
+      "description": "Get the Black Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9196231,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2547135,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -1708745,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Black Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -12941027,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Black Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -11182740,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Great Mage",
+      "description": "Get the Great Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14185997,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -6628851,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -7513714,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Great Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2480761,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Great Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -10288861,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: The Wanted",
+      "description": "Get the The Wanted title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2409436,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1405167,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2335264,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"The Wanted\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2365093,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"The Wanted\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -13085601,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Master of Magic",
+      "description": "Get the Master of Magic title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15141818,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7149361,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -14772681,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Master of Magic\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -12493960,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Master of Magic\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12312861,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Hermit",
+      "description": "Get the Hermit title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5046614,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -12340992,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -10944847,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Hermit\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -12979187,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Hermit\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -11386036,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: The Legend",
+      "description": "Get the The Legend title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11695247,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -3897287,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -15565243,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"The Legend\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -981439,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"The Legend\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -16441007,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Nobody",
+      "description": "Get the Nobody title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13204106,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -5149821,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -9172795,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Nobody\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -4232162,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Nobody\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -9465905,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Black Robe Spy",
+      "description": "Get the Black Robe Spy title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -12059369,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -16218239,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8523013,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Black Robe Spy\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2260937,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Black Robe Spy\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8173463,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Bloodthurst",
+      "description": "Get the Bloodthurst title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -567632,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7959314,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -12986037,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Bloodthurst\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -9591580,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Bloodthurst\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -237234,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Salesman",
+      "description": "Get the Salesman title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15080317,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -13257232,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -11265037,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Salesman\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8348315,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Salesman\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2748503,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: White Robe Mage",
+      "description": "Get the White Robe Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3388999,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -8183282,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -13404744,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"White Robe Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -7506374,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"White Robe Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -108643,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Black Robe Mage",
+      "description": "Get the Black Robe Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14281955,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -395395,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -4397018,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Black Robe Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -3609354,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Black Robe Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5760473,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: White Robe Traitor",
+      "description": "Get the White Robe Traitor title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9265130,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -14629994,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -10711904,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"White Robe Traitor\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -14687857,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"White Robe Traitor\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -15120511,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: The Fearless",
+      "description": "Get the The Fearless title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -971163,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1992419,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -1116918,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"The Fearlessr\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -5012700,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"The Fearlessr\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -7460016,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: The New Hope",
+      "description": "Get the The New Hope title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9401833,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15504572,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -16006981,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"The New Hope\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2143706,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"The New Hope\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -10970773,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Great Mage (Black)",
+      "description": "Get the Great Mage (Black) title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8632965,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -14459876,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -5671248,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Great Mage (Black)\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8736201,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Great Mage (Black)\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -15257332,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Avenger",
+      "description": "Get the Avenger title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11871957,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -6731939,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -4587893,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Avenger\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -6008857,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Avenger\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12257198,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Thief",
+      "description": "Get the Thief title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15220635,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2188867,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -3165012,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Thief\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -2624236,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Thief\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12172648,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Grave Digger",
+      "description": "Get the Grave Digger title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11493448,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15694197,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -11628569,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Grave Digger\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -963581,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Grave Digger\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -16415467,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Guardian of the Grave",
+      "description": "Get the Rising Star title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3210511,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7515966,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -6252553,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Guardian of the Grave\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -609959,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Guardian of the Grave\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -6960520,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Evil's Nightmare",
+      "description": "Get the Evil's Nightmare title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -23264,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7561308,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -1878123,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Evil's Nightmare\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -11194546,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Evil's Nightmare\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1484410,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Neutral Mage",
+      "description": "Get the Neutral Mage title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1229995,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -11476650,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -6359878,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Neutral Mage\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -16328802,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Neutral Mage\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -7689827,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Mercenary",
+      "description": "Get the Mercenary title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15114592,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7164212,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8500566,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Mercenary\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -3481049,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Mercenary\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -14496033,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Number One",
+      "description": "Get the Number One title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1799111,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2619950,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -4799641,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Number One\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -15729933,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Number One\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8317303,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Great Mage (White)",
+      "description": "Get the Great Mage (White) title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1831809,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -16355686,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -9735100,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Great Mage (White)\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8641709,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Great Mage (White)\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8731216,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: High Mage of Black Robes",
+      "description": "Get the High Mage of Black Robes title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11386943,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -16529860,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -13836217,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"High Mage of Black Robes\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -14414989,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"High Mage of Black Robes\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12158791,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: High Mage of White Robes",
+      "description": "Get the High Mage of White Robes title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1937963,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -13586904,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -1709108,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"High Mage of White Robes\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -15938327,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"High Mage of White Robes\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -14614472,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Invincible",
+      "description": "Get the Invincible title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13085632,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15218954,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -11873900,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Invincible\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -6645076,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Invincible\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -9157898,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: The Punished",
+      "description": "Get the The Punished title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -7726031,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -3931223,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -15852985,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"The Punishedr\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -16279085,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"The Punishedr\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8560444,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Title: Top Ten Mages",
+      "description": "Get the Rising Star title",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3604769,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -3498237,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".b_nobstudio4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -10797187,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".playerTitles[this == \"Top Ten Mages\"]",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -8566413,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".playerTitles[this == \"Top Ten Mages\"]",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -6005684,
+      "type": "RICH_PRESENCE",
+      "name": "Rich Presence",
+      "description": "",
+      "formula": "{stage.levels_t.text} != null ? \"Level \" + {stage.levels_t.text} + \" - Rank \" + stage.player.info.rank : \"In Menu\"",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9225841,
+          "type": "CORE",
+          "requirements": []
+        }
+      ]
+    }
+  ],
+  "codeNotes": [],
+  "gameConfig": {
+    "title": "Book of Mages - The Dark Times",
+    "originUrl": "",
+    "badgeImage": "data:image/png;base64,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"
+  }
+}
