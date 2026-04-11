@@ -349,6 +349,16 @@
           "type": "CORE",
           "requirements": [
             {
+              "id": -6887686,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": ">=",
+              "typeB": "VALUE",
+              "addressB": "175",
+              "maxHits": 0
+            },
+            {
               "id": -11838472,
               "flag": null,
               "typeA": "MEM",
@@ -376,6 +386,16 @@
           "id": -2332476,
           "type": "CORE",
           "requirements": [
+            {
+              "id": -1495804,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": ">=",
+              "typeB": "VALUE",
+              "addressB": "175",
+              "maxHits": 0
+            },
             {
               "id": -16361587,
               "flag": "MEASURED",
