@@ -1,0 +1,378 @@
+{
+  "assets": [
+    {
+      "id": -9714451,
+      "type": "ACHIEVEMENT",
+      "points": 10,
+      "name": "Normal Victory",
+      "description": "Beat the game on \"Normal\" difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -16092112,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2110935,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -15763311,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".diff",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -10718359,
+      "type": "ACHIEVEMENT",
+      "points": 25,
+      "name": "Harder Victory",
+      "description": "Beat the game on \"Harder\" difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6287497,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -5498067,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -9536697,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".diff",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -4402030,
+      "type": "ACHIEVEMENT",
+      "points": 50,
+      "name": "Impossible Victory",
+      "description": "Beat the game on \"Impossible\" difficulty",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5446429,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -6689846,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -16349023,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".diff",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1405662,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Medieval Age",
+      "description": "Advance your faction to medieval Age",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -26912,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7431091,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -14915994,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -3057260,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -11997878,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Renaissance Age",
+      "description": "Advance your faction to the Renaissance age",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11549536,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -11859249,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -15882758,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            },
+            {
+              "id": -9355974,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2340373,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Modern Warfare Age",
+      "description": "Advance your faction to the modern warfare age",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2205274,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -3108941,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -1157787,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            },
+            {
+              "id": -10094257,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "4",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5055404,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Sci-fi Age",
+      "description": "Advance your faction to the sci-fi age",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14176981,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15862476,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -13654784,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "4",
+              "maxHits": 0
+            },
+            {
+              "id": -16535387,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".tech_level",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "5",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5731697,
+      "type": "ACHIEVEMENT",
+      "points": 10,
+      "name": "Maximum Defense",
+      "description": "Have four turrets at the same time",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3482164,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -4535640,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "stage_frame",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -7513068,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".spot1_turret",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -1678464,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".spot2_turret",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -16133465,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".spot3_turret",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -4538318,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".spot4_turret",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeNotes": [],
+  "gameConfig": {
+    "title": "Age of War",
+    "originUrl": "",
+    "badgeImage": "",
+    "scaleMode": "showAll",
+    "align": "TL"
+  }
+}
