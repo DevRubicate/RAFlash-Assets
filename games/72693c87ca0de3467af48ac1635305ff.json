@@ -1,0 +1,1464 @@
+{
+  "assets": [
+    {
+      "id": -7555231,
+      "type": "RICH_PRESENCE",
+      "name": "Rich Presence",
+      "description": "",
+      "formula": "\"Level \" + {root.battlelevel} + \" Son equipped with Weapon Level \" + {root.weaponpower} + \" and Carrying \" + {root.points} + \" Halloween Coins\"",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -9338764,
+          "type": "CORE",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": -14522144,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "Sworn to the Sword",
+      "description": "Acquire Weapon Level 1",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13604363,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -5592215,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.weaponlvl1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -6670748,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.weaponlvl1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -568467,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -14694164,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "The Power Within",
+      "description": "Reach Level 5",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -10350487,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15220156,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.battlelevel",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "4",
+              "maxHits": 0
+            },
+            {
+              "id": -12269213,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.battlelevel",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "5",
+              "maxHits": 0
+            },
+            {
+              "id": -6477687,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.points",
+              "cmp": "<",
+              "typeB": "DELTA",
+              "addressB": "root.points",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -14075760,
+      "type": "ACHIEVEMENT",
+      "points": 5,
+      "name": "Knowledge Flows Through Me",
+      "description": "Learn 3 Skills",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1386224,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15869873,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -9689222,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -14391097,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -40742,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -8242929,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -7386506,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -12405863,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -7034734,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -2573649,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -3776571,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            },
+            {
+              "id": -16028752,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -1701429,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -9355043,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -8019470,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -3341078,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -497517,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -7596133,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -623583,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -9813062,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5304018,
+              "flag": "MEASURED",
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -7630730,
+      "type": "ACHIEVEMENT",
+      "points": 10,
+      "name": "My Power Surges",
+      "description": "Learn 6 Skills",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3140193,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -13631455,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -16023173,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -13513799,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -3382344,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -2952706,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -12020241,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -8081588,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5155443,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5539557,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5957829,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "5",
+              "maxHits": 0
+            },
+            {
+              "id": -7741853,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -13742719,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -14584357,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -3225780,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5673402,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -16346021,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -3017713,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -5471682,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -8402767,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -9424449,
+              "flag": "MEASURED",
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "6",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -815864,
+      "type": "ACHIEVEMENT",
+      "points": 25,
+      "name": "Nerd Rage",
+      "description": "Learn All Skills",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15643031,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -8450431,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -12243159,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -170878,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -11525029,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -7245916,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -13713295,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -15943197,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -4358338,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -4261328,
+              "flag": "ADD_SOURCE",
+              "typeA": "DELTA",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -7980527,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "8",
+              "maxHits": 0
+            },
+            {
+              "id": -13160391,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill1",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -10446141,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -14968611,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -9461545,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -15580287,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -12323868,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill6",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -12854739,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill7",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -1573640,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill8",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -1436179,
+              "flag": "ADD_SOURCE",
+              "typeA": "VALUE",
+              "addressA": "root.skill9",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -15754454,
+              "flag": "MEASURED",
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "9",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -3955453,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "I Studied the Blade",
+      "description": "Acquire Weapon Level 2",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -10771021,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -5929650,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.weaponlvl2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -13940185,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.weaponlvl2",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -11484351,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "6",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12315951,
+      "type": "ACHIEVEMENT",
+      "progressionType": "PROGRESSION",
+      "points": 2,
+      "name": "Mausoleum Boy",
+      "description": "Defeat the Dragon guarding the Mausoleum and clear Act 1",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -8055869,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -4847093,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "8",
+              "maxHits": 0
+            },
+            {
+              "id": -370806,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemynumber",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "8",
+              "maxHits": 0
+            },
+            {
+              "id": -2719064,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.fight_on",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -15286318,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.enemyhealth",
+              "cmp": ">",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -16496038,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemyhealth",
+              "cmp": "<=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5637201,
+      "type": "ACHIEVEMENT",
+      "points": 2,
+      "name": "Slice and Dice",
+      "description": "Acquire Weapon Level 3",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14073842,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -6665940,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.weaponlvl3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -1196911,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.weaponlvl3",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -9173490,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "9",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1287948,
+      "type": "ACHIEVEMENT",
+      "progressionType": "PROGRESSION",
+      "points": 4,
+      "name": "One More God Rejected",
+      "description": "Defeat the Dragon inside the Mausoleum and clear Act 2",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -16340823,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -4102455,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            },
+            {
+              "id": -16503647,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemynumber",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "9",
+              "maxHits": 0
+            },
+            {
+              "id": -4682405,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.fight_on",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -5686946,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.enemyhealth",
+              "cmp": ">",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -5521221,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemyhealth",
+              "cmp": "<=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -14837376,
+      "type": "ACHIEVEMENT",
+      "points": 2,
+      "name": "Sword Art Online",
+      "description": "Acquire Weapon Level 4",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6880863,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -7276482,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.weaponlvl4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -16245476,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.weaponlvl4",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -5588149,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "17",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -538768,
+      "type": "ACHIEVEMENT",
+      "progressionType": "PROGRESSION",
+      "points": 10,
+      "name": "Dragon Quest",
+      "description": "Defeat the the final Dragon guarding the Dark City and clear Act 3",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -14182825,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -16101949,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "19",
+              "maxHits": 0
+            },
+            {
+              "id": -13146863,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemynumber",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "10",
+              "maxHits": 0
+            },
+            {
+              "id": -10074759,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.fight_on",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -7623425,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.enemyhealth",
+              "cmp": ">",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -15972479,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemyhealth",
+              "cmp": "<=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -9100467,
+      "type": "ACHIEVEMENT",
+      "points": 3,
+      "name": "Excalibur",
+      "description": "Acquire Weapon Level 5",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -904659,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2992288,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.weaponlvl5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -9800151,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.weaponlvl5",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -8401141,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "23",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8025136,
+      "type": "ACHIEVEMENT",
+      "points": 25,
+      "name": "Death to All Who Oppose Me",
+      "description": "Reach Level 10",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1528815,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2516299,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.battlelevel",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "9",
+              "maxHits": 0
+            },
+            {
+              "id": -13718967,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.battlelevel",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "10",
+              "maxHits": 0
+            },
+            {
+              "id": -10471162,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.points",
+              "cmp": "<",
+              "typeB": "DELTA",
+              "addressB": "root.points",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -7767614,
+      "type": "ACHIEVEMENT",
+      "progressionType": "WIN",
+      "points": 25,
+      "name": "Dead by Daylight",
+      "description": "Defeat your Father and clear the Final Act",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -4826365,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -9611575,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.gamemap",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "23",
+              "maxHits": 0
+            },
+            {
+              "id": -7675792,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemynumber",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "11",
+              "maxHits": 0
+            },
+            {
+              "id": -10475106,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.fight_on",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -6774851,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "root.enemyhealth",
+              "cmp": ">",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            },
+            {
+              "id": -2381749,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "root.enemyhealth",
+              "cmp": "<=",
+              "typeB": "VALUE",
+              "addressB": "0",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeNotes": [
+    {
+      "id": 1,
+      "note": "Character Level",
+      "path": "root.battlelevel"
+    },
+    {
+      "id": 2,
+      "note": "Character Power",
+      "path": "root.power"
+    },
+    {
+      "id": 3,
+      "note": "Character Vitality",
+      "path": "root.vitality"
+    },
+    {
+      "id": 5,
+      "note": "Character Mana",
+      "path": "root.mana"
+    },
+    {
+      "id": 7,
+      "note": "Character Magic",
+      "path": "root.magic"
+    },
+    {
+      "id": 8,
+      "note": "Encounter Rate (Lower = Higher Encounter Rate)",
+      "path": "root.dragStore"
+    },
+    {
+      "id": 9,
+      "note": "[Boolean] Skill 1: Combo Acquired ",
+      "path": "root.skill1"
+    },
+    {
+      "id": 10,
+      "note": "[Boolean] Skill 2: Cross-Slash Acquired",
+      "path": "root.skill2"
+    },
+    {
+      "id": 11,
+      "note": "[Boolean] Skill 3: Haunted Acquired",
+      "path": "root.skill3"
+    },
+    {
+      "id": 12,
+      "note": "[Boolean] Skill 4: Concentration Acquired",
+      "path": "root.skill4"
+    },
+    {
+      "id": 13,
+      "note": "[Boolean] Skill 5: Recovery Acquired",
+      "path": "root.skill5"
+    },
+    {
+      "id": 14,
+      "note": "[Boolean] Skill 6: Your Defence Acquired",
+      "path": "root.skill6"
+    },
+    {
+      "id": 15,
+      "note": "[Boolean] Skill 7: Maximum Acquired",
+      "path": "root.skill7"
+    },
+    {
+      "id": 16,
+      "note": "[Boolean] Skill 8: Limit Acquired",
+      "path": "root.skill8"
+    },
+    {
+      "id": 17,
+      "note": "[Boolean] Skill 9: Overdrive Acquired",
+      "path": "root.skill9"
+    },
+    {
+      "id": 18,
+      "note": "Halloween Coins",
+      "path": "root.points"
+    },
+    {
+      "id": 19,
+      "note": "Battle Level Price",
+      "path": "root.price1"
+    },
+    {
+      "id": 20,
+      "note": "Power Price",
+      "path": "root.price2"
+    },
+    {
+      "id": 21,
+      "note": "Vitality Price",
+      "path": "root.price3"
+    },
+    {
+      "id": 22,
+      "note": "Mana Price",
+      "path": "root.price4"
+    },
+    {
+      "id": 23,
+      "note": "Magic Price",
+      "path": "root.price5"
+    },
+    {
+      "id": 24,
+      "note": "[Boolean] Player on Save Point",
+      "path": "root.savable"
+    },
+    {
+      "id": 25,
+      "note": "Weapon Level Equipped",
+      "path": "root.weaponpower"
+    },
+    {
+      "id": 26,
+      "note": "[Boolean] Weapon Level 1 Pickup State",
+      "path": "root.weaponlvl1"
+    },
+    {
+      "id": 27,
+      "note": "[Boolean] Weapon Level 2 Pickup State",
+      "path": "root.weaponlvl2"
+    },
+    {
+      "id": 28,
+      "note": "[Boolean] Weapon Level 3 Pickup State",
+      "path": "root.weaponlvl3"
+    },
+    {
+      "id": 29,
+      "note": "[Boolean] Weapon Level 4 Pickup State",
+      "path": "root.weaponlvl4"
+    },
+    {
+      "id": 30,
+      "note": "[Boolean] Weapon Level 5 Pickup State",
+      "path": "root.weaponlvl5"
+    },
+    {
+      "id": 31,
+      "note": "Room ID",
+      "path": "root.gamemap"
+    },
+    {
+      "id": 32,
+      "note": "[Boolean] Battle Active",
+      "path": "root.fight_on"
+    },
+    {
+      "id": 33,
+      "note": "Current HP (Healed to Max Upon Entering Battle)",
+      "path": "root.currenthealth"
+    },
+    {
+      "id": 34,
+      "note": "Current Energy (Healed to Max When Entering Battle",
+      "path": "root.currentenergy"
+    },
+    {
+      "id": 35,
+      "note": "Max HP",
+      "path": "root.maxhealth"
+    },
+    {
+      "id": 36,
+      "note": "Max Energy",
+      "path": "root.maxenergy"
+    },
+    {
+      "id": 37,
+      "note": "Enemy ID",
+      "path": "root.enemynumber"
+    },
+    {
+      "id": 38,
+      "note": "Enemy Current HP (Can be Negative)",
+      "path": "root.enemyhealth"
+    },
+    {
+      "id": 40,
+      "note": "Enemy Level",
+      "path": "root.enemylevel"
+    }
+  ],
+  "gameConfig": {
+    "title": "The Halloween Hunt",
+    "badgeImage": "data:image/jpeg;base64,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",
+    "currentSlot": "default"
+  }
+}
