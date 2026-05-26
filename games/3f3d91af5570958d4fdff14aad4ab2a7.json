@@ -1,0 +1,882 @@
+{
+  "assets": [
+    {
+      "id": -3678803,
+      "type": "ACHIEVEMENT",
+      "progressionType": "PROGRESSION",
+      "points": 3,
+      "name": "Go Back to Castlevania",
+      "description": "Defeat Alucard",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -2966297,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15558622,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            },
+            {
+              "id": -2834120,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room2._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "298",
+              "maxHits": 0
+            },
+            {
+              "id": -11167994,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room2._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "298",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1588953,
+      "type": "ACHIEVEMENT",
+      "progressionType": "PROGRESSION",
+      "points": 4,
+      "name": "Ex Man",
+      "description": "Defeat Hanzo",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3305899,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1123026,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            },
+            {
+              "id": -15574122,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "294",
+              "maxHits": 0
+            },
+            {
+              "id": -7205931,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "294",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -10862995,
+      "type": "ACHIEVEMENT",
+      "progressionType": "WIN",
+      "points": 5,
+      "name": "Penilian Dysfunction",
+      "description": "Defeat Cassandra",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1290078,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1030095,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "18",
+              "maxHits": 0
+            },
+            {
+              "id": -2610948,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "19",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2572643,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "No Backing Out",
+      "description": "Kill Alucard",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -6877221,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -6649724,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            },
+            {
+              "id": -9831575,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room2._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "361",
+              "maxHits": 0
+            },
+            {
+              "id": -15542374,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room2._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "361",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -7971520,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "Edgelord Battle",
+      "description": "Kill Cyclops and then keep shooting his disfigured corpse",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -11097845,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -9512623,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "8",
+              "maxHits": 0
+            },
+            {
+              "id": -1635049,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "5",
+              "maxHits": 0
+            },
+            {
+              "id": -8627279,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "6",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5165458,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "Tapped Out ",
+      "description": "Clean the urinals and flood the bathroom",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13972858,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -15901090,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": ".marcsummers",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "null",
+              "maxHits": 0
+            },
+            {
+              "id": -10690919,
+              "flag": "AND_NEXT",
+              "typeA": "VALUE",
+              "addressA": ".marcsummers",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "true",
+              "maxHits": 0
+            },
+            {
+              "id": -16616570,
+              "flag": "ADD_HITS",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -10326753,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 1
+            }
+          ]
+        },
+        {
+          "id": -6400392,
+          "type": "ALT",
+          "requirements": [
+            {
+              "id": -482475,
+              "flag": "OR_NEXT",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            },
+            {
+              "id": -3728650,
+              "flag": "AND_NEXT",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -4826482,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": ".room.water1._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -16540373,
+              "flag": "ADD_HITS",
+              "typeA": "VALUE",
+              "addressA": ".room.water1._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -4415116,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 1
+            }
+          ]
+        },
+        {
+          "id": -2652879,
+          "type": "ALT",
+          "requirements": [
+            {
+              "id": -4345288,
+              "flag": "OR_NEXT",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            },
+            {
+              "id": -7929816,
+              "flag": "AND_NEXT",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -13182969,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": ".room.water2._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -14647469,
+              "flag": "ADD_HITS",
+              "typeA": "VALUE",
+              "addressA": ".room.water2._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -9040217,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "0",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -6125518,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "You're a Freak",
+      "description": "Have a LOT of shit thrown at you",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15827574,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -10645687,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -15014996,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room.turd._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "103",
+              "maxHits": 0
+            },
+            {
+              "id": -5678695,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room.turd._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "103",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -12161872,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "But I'm Freakier",
+      "description": "Shoot the person inside the male stall",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -13956390,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -9801363,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "14",
+              "maxHits": 0
+            },
+            {
+              "id": -2097921,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".action_room14._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            },
+            {
+              "id": -195833,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".action_room14._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -8798451,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "My Hero!",
+      "description": "Spare Nene of her anxiety",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5166525,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1957055,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "10",
+              "maxHits": 0
+            },
+            {
+              "id": -6462392,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".action_room10._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -13511893,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".action_room10._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -5954477,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "420 Blaze It",
+      "description": "Smoke a medicinal herb",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5490331,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -9298705,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".smoke._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -566159,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".smoke._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "2",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -10649891,
+      "type": "ACHIEVEMENT",
+      "points": 1,
+      "name": "Michael Bay",
+      "description": "Make a big explosion during the fight with Cassandra",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -1220768,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -13769843,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "18",
+              "maxHits": 0
+            },
+            {
+              "id": -1392782,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": ".room.outside._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            },
+            {
+              "id": -4610970,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room.outside._currentframe",
+              "cmp": ">",
+              "typeB": "VALUE",
+              "addressB": "1",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -3154768,
+      "type": "ACHIEVEMENT",
+      "progressionType": null,
+      "points": 3,
+      "name": "Telekinesis is No Match for a Submachine Gun",
+      "description": "Defeat Alucard without taking damage",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -3252639,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -10933172,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            },
+            {
+              "id": -15657826,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room2._currentframe",
+              "cmp": "<=",
+              "typeB": "VALUE",
+              "addressB": "297",
+              "maxHits": 0
+            },
+            {
+              "id": -2965925,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": ".room2._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "297",
+              "maxHits": 0
+            },
+            {
+              "id": -10881580,
+              "flag": "TRIGGER",
+              "typeA": "VALUE",
+              "addressA": ".room2._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "297",
+              "maxHits": 0
+            },
+            {
+              "id": -8673721,
+              "flag": "PAUSE_IF",
+              "typeA": "VALUE",
+              "addressA": ".health._currentframe",
+              "cmp": "!=",
+              "typeB": "DELTA",
+              "addressB": ".health._currentframe",
+              "maxHits": 1
+            }
+          ]
+        },
+        {
+          "id": -15145648,
+          "type": "ALT",
+          "requirements": [
+            {
+              "id": -8110616,
+              "flag": "RESET_IF",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "3",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -9565880,
+      "type": "ACHIEVEMENT",
+      "points": 10,
+      "name": "Aimbot",
+      "description": "Defeat Hanzo without taking more than two damage",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -5546276,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -1464560,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            },
+            {
+              "id": -16301476,
+              "flag": null,
+              "typeA": "VALUE",
+              "addressA": ".room._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "294",
+              "maxHits": 0
+            },
+            {
+              "id": -10510552,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": ".room._currentframe",
+              "cmp": "<",
+              "typeB": "VALUE",
+              "addressB": "293",
+              "maxHits": 0
+            },
+            {
+              "id": -13141334,
+              "flag": "TRIGGER",
+              "typeA": "VALUE",
+              "addressA": ".room._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "293",
+              "maxHits": 0
+            },
+            {
+              "id": -987812,
+              "flag": "PAUSE_IF",
+              "typeA": "VALUE",
+              "addressA": ".health._currentframe",
+              "cmp": "!=",
+              "typeB": "DELTA",
+              "addressB": ".health._currentframe",
+              "maxHits": 3
+            }
+          ]
+        },
+        {
+          "id": -13194218,
+          "type": "ALT",
+          "requirements": [
+            {
+              "id": -15767744,
+              "flag": "RESET_IF",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "15",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -13177662,
+      "type": "ACHIEVEMENT",
+      "points": 10,
+      "name": "Castration",
+      "description": "Defeat Cassandra without taking damage",
+      "category": "LOCAL",
+      "published": false,
+      "groups": [
+        {
+          "id": -15878048,
+          "type": "CORE",
+          "requirements": [
+            {
+              "id": -2126262,
+              "flag": null,
+              "typeA": "DELTA",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "18",
+              "maxHits": 0
+            },
+            {
+              "id": -1478230,
+              "flag": "TRIGGER",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "==",
+              "typeB": "VALUE",
+              "addressB": "19",
+              "maxHits": 0
+            },
+            {
+              "id": -15680623,
+              "flag": "AND_NEXT",
+              "typeA": "DELTA",
+              "addressA": "._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "13",
+              "maxHits": 0
+            },
+            {
+              "id": -9423900,
+              "flag": "PAUSE_IF",
+              "typeA": "VALUE",
+              "addressA": ".health._currentframe",
+              "cmp": "!=",
+              "typeB": "DELTA",
+              "addressB": ".health._currentframe",
+              "maxHits": 1
+            }
+          ]
+        },
+        {
+          "id": -8967920,
+          "type": "ALT",
+          "requirements": [
+            {
+              "id": -7301195,
+              "flag": "AND_NEXT",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "19",
+              "maxHits": 0
+            },
+            {
+              "id": -16060120,
+              "flag": "RESET_IF",
+              "typeA": "VALUE",
+              "addressA": "._currentframe",
+              "cmp": "!=",
+              "typeB": "VALUE",
+              "addressB": "18",
+              "maxHits": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "codeNotes": [],
+  "gameConfig": {
+    "title": "Pico's School",
+    "badgeImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAO/WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIiB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDI1LTExLTIwVDEzOjU5OjA1LTAzOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDI2LTA1LTIwVDAzOjUxOjIyLTAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyNi0wNS0yMFQwMzo1MToyMi0wMzowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTg0NDgzOS1lYzliLTU2NDUtYmZmNS04ZTc3YTM0ZmUzZDgiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDoyYjU4N2EyNS01NWY2LTM5NDAtOGJkNi01YTI5Yzk0ZGZjMzciIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5ZjEzMDYzZC1lNDMxLTMyNDItYmJmNi1hYjI1MmMwNDA0MzQiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHRpZmY6T3JpZW50YXRpb249IjEiIHRpZmY6WFJlc29sdXRpb249IjcyMDAwMC8xMDAwMCIgdGlmZjpZUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOlJlc29sdXRpb25Vbml0PSIyIiBleGlmOkNvbG9yU3BhY2U9IjEiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSI5NiIgZXhpZjpQaXhlbFlEaW1lbnNpb249Ijk2Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ZjEzMDYzZC1lNDMxLTMyNDItYmJmNi1hYjI1MmMwNDA0MzQiIHN0RXZ0OndoZW49IjIwMjUtMTEtMjBUMTM6NTk6MDUtMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6OWE5ZmM4NDUtNDM5MC00NjRjLWExODktNGY5N2I1ZGU4ZTI0IiBzdEV2dDp3aGVuPSIyMDI1LTExLTIwVDEzOjU5OjA1LTAzOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmFjNGEwZGU4LTQ1MDAtYTk0My05Yzg5LWJlNTQ3OWQ0NjhiZCIgc3RFdnQ6d2hlbj0iMjAyNS0xMi0xOFQxMzozNjoyNC0wMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gaW1hZ2UvcG5nIHRvIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImRlcml2ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImNvbnZlcnRlZCBmcm9tIGltYWdlL3BuZyB0byBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozNjcyMGZiYS1mYjVjLWFhNDQtODEwZC1hNTdiMzFiYTAzZGIiIHN0RXZ0OndoZW49IjIwMjUtMTItMThUMTM6MzY6MjQtMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YjBlY2E1ZDAtYWY0Ny05NDRhLTk0YmEtM2ZjZTAzNTU1ZWI4IiBzdEV2dDp3aGVuPSIyMDI2LTAzLTEzVDE5OjU2OjQ5LTAzOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNvbnZlcnRlZCIgc3RFdnQ6cGFyYW1ldGVycz0iZnJvbSBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIHRvIGltYWdlL3BuZyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iZGVyaXZlZCIgc3RFdnQ6cGFyYW1ldGVycz0iY29udmVydGVkIGZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjFhMGNhZmVmLWRiYWMtZjA0Zi1iYmQzLTRhMTBkMThjMTRkOCIgc3RFdnQ6d2hlbj0iMjAyNi0wMy0xM1QxOTo1Njo0OS0wMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NTg0NDgzOS1lYzliLTU2NDUtYmZmNS04ZTc3YTM0ZmUzZDgiIHN0RXZ0OndoZW49IjIwMjYtMDUtMjBUMDM6NTE6MjItMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YjBlY2E1ZDAtYWY0Ny05NDRhLTk0YmEtM2ZjZTAzNTU1ZWI4IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NTRjMjgyZDYtNWM1YS00MTRmLWExNDQtMjIxOTlhNTQyZWI2IiBzdFJlZjpvcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6OWYxMzA2M2QtZTQzMS0zMjQyLWJiZjYtYWIyNTJjMDQwNDM0Ii8+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPmFkb2JlOmRvY2lk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",
+    "currentSlot": "default"
+  }
+}
